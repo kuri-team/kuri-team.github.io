@@ -47,8 +47,16 @@ span.aboutusname{
     font-size: xx-large; 
     text-align: center; 
     font-weight: bolder;
+    
 }
 
+span.feedbackname{
+    color:rosybrown ; 
+    font-size: xx-large; 
+    text-align: center; 
+    font-weight: bolder;
+    margin-left: 20px;
+}
 
 .mySlides {display:none;}
 
