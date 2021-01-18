@@ -15,19 +15,19 @@
     text-align: center;
 }
 
+.kuri-welcome {
+    color: #FFFFFF;
+    font-size: small;
+    text-align: center;
+    padding-top: 2rem;
+}
+
 .kurititle2{
-    font-family: 'Patrick Hand', cursive; color:#105F9E;
+    font-family: sans-serif; color:#105F9E;
     text-align: center; 
-    font-size: xxx-large;
+    font-size: x-large;
     text-shadow: 5px 5px 8px #D6426D;
 }
-
-.welcometext{
-    text-align:center; 
-    font-weight: bold; 
-    font-size: large;
-}
-
 
 .avapic{
     border-radius: 50%; 
