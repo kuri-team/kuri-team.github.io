@@ -107,3 +107,92 @@ h1.gametitle{
 .skillandjob{
     text-align: justify;
 }
+
+p.excert{
+    text-align: justify;
+}
+ul.excert{
+    text-align: justify;
+}
+
+.aboutusp{
+    text-align: justify;
+}
+
+.mySlides {display:none;}
+
+.dot {
+    margin-top: 100px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.block {
+    margin-top: 30px;
+    display: block;
+    height: 100px;
+    width: 100%;
+    border: none;
+    background-color: indianred;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    }
+
+.block:hover {
+    background-color:lavender;
+    color: black;
+}
+
+a.a1{
+    color:#D6426D;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse:collapse;
+    width: 100%;
+  }
+  
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  td.border_top{
+      border-top: none;
+  }
+
+  td.left{
+      text-align: left;
+  }
+ 
+  
+.generic-blockquote{
+    text-align: justify;
+}
+
+h2.vkl{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p.italic{
+    font-weight: inherit;
+    font-size: x-large;
+}
