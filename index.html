@@ -22,13 +22,7 @@
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/kuri_style.css">
-        <style> @keyframes header {
-            0%   {background-color:red; left:0px; top:0px;}
-            25%  {background-color:yellow; left:200px; top:0px;}
-            50%  {background-color:blue; left:200px; top:200px;}
-            75%  {background-color:green; left:0px; top:200px;}
-            100% {background-color:red; left:0px; top:0px;}
-          }</style>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    </head>
 
    <body>
@@ -273,6 +267,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-xl-12 posts-list">
+                        <div class="single-post">
+                            
+                           <div class="w3-content w3-display-container">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery2.png" style = "width:100%">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery1.png" style="width:100%">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery3.png" style="width:100%">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery4.png" style="width:100%">
+                           
+                              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                           </div>
+      
+                           <div style="text-align:center; margin-top: 30px;">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                              <span class="dot" onclick="currentSlide(4)"></span> 
+                          </div>
+                    </div>
+                    
+
+                   
+                    <button class="block" onclick="window.location.href='blog_details.html'">PLAY GAME</button>
                     
                 </div>
             </div>
@@ -343,6 +362,32 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+
+        
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+           showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+
+        </script>
         
     </body>
 </html>
