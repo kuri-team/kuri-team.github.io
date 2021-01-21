@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/kuri photos/Kuri_BW-light.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/kuri photos/BW-darkx150px.ico">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -21,14 +21,8 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
-        
-        <style> @keyframes header {
-            0%   {background-color:red; left:0px; top:0px;}
-            25%  {background-color:yellow; left:200px; top:0px;}
-            50%  {background-color:blue; left:200px; top:200px;}
-            75%  {background-color:green; left:0px; top:200px;}
-            100% {background-color:red; left:0px; top:0px;}
-          }</style>
+            <link rel="stylesheet" href="assets/css/kuri_style.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    </head>
 
    <body>
@@ -38,7 +32,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img style="width: 35px; height: 35px;" src="assets/img/kuri photos/Kuri_BW-light.ico" alt="">
+                    <img class="preloadicon" src="assets/img/kuri photos/BW-darkx150px.ico" alt="">
                 </div>
             </div>
         </div>
@@ -54,7 +48,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-1 col-md-1">
                                 <div class="logo">
-                                  <a href="index.html"><img style="width: 273px; height: 150px;" src="assets/img/kuri photos/Inline Logo tricolor altx150px.png" alt=""></a>
+                                  <a href="index.html"><img class= "kuri_logonavbar" src="assets/img/kuri photos/Inline Logo BW-lightx150px.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8">
@@ -73,13 +67,6 @@
                                     </nav>
                                 </div>
                             </div>             
-                            <div class="col-xl-2 col-lg-3 col-md-3">
-                                <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a style="background-color:whitesmoke;" href="#" class="btn header-btn">
-                                        <img style="width: 35px; height: 35px;" src="assets/img/kuri photos/Kuri_BW-light.ico">
-                                    </a>
-                                </div>
-                            </div>
                             <!-- Mobile Menu -->
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
@@ -101,15 +88,8 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-9 ">
                                 <div class="hero__caption">
-                                    <img style="position: absolute; width: 64px; height: 64px; margin-left: 150px; margin-top: 12px;" src="assets/img/kuri photos/Kuri_BW-light.ico">
-                                    <h1 style="color:#D6426D; text-align: center; text-shadow: 5px 5px 8px #105F9E;" data-animation="fadeInLeft" data-delay=".3s">KURI </h1> <!--  animation-name: header; animation-iteration-count: infinite ; -->
-                                    <h2 style="font-family: 'Patrick Hand', cursive; color:#105F9E; text-align: center; font-size: xxx-large;  text-shadow: 5px 5px 8px #D6426D;" data-animation="fadeInLeft" data-delay=".3s; ">Project Website</h1>
-                                    <p data-animation="fadeInLeft" data-delay=".6s" style="text-align: center; margin-left: 150px;"><br><br>Welcome to our project website</p>
-                                    <!-- Slider btn -->
-                                   <div class="slider-btns">
-                                        <!-- Hero-btn -->
-                                        <a data-animation="fadeInLeft" data-delay="1s" href="#aboutus" class="btn radius-btn" style="margin-left: 200px;">get started</a>
-                                   </div>
+                                  
+                                    <h1 class ="align-items-center kurititle"  data-animation="fadeInLeft" data-delay=".3s">Welcome to our website</h1> <!--  animation-name: header; animation-iteration-count: infinite ; -->
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -157,7 +137,7 @@
                         <div class="services-wrapper mb-50">
                             <div class="single-services">
                                 <div class="services-icon">
-                                    <img style="width: 250px; height: 250px ;" src="assets/img/about us pic/img-3.png">
+                                    <img style="width: 250px; height: 250px;" src="assets/img/about us pic/img-3.png">
                                 </div>
                                 <div class="services-cap">
                                     <h3><a href="about.html">Vo Tuong Minh</a></h3>
@@ -210,7 +190,7 @@
                         </div>
                     </div>
 
-                    <div style="margin-left: 200px;" class="col-lg-4 col-md-6 col-sm-6">
+                    <div style="margin-left: auto; margin-right: auto;" class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-wrapper mb-50">
                             <div class="single-services">
                                 <div class="services-icon">
@@ -229,7 +209,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div style="margin-left: auto; margin-right: auto;" class="col-lg-4 col-md-6 col-sm-6">
                         <div class="services-wrapper mb-50">
                             <div class="single-services">
                                 <div class="services-icon">
@@ -287,6 +267,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-xl-12 posts-list">
+                        <div class="single-post">
+                            
+                           <div class="w3-content w3-display-container">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery2.png" style = "width:100%">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery1.png" style="width:100%">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery3.png" style="width:100%">
+                              <img class="mySlides" src="assets/img/gallery/spidergallery4.png" style="width:100%">
+                           
+                              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                           </div>
+      
+                           <div style="text-align:center; margin-top: 30px;">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                              <span class="dot" onclick="currentSlide(4)"></span> 
+                          </div>
+                    </div>
+                    
+
+                   
+                    <button class="block" onclick="window.location.href='blog_details.html'">PLAY GAME</button>
                     
                 </div>
             </div>
@@ -298,54 +303,6 @@
         <!-- Footer Start-->
         <div class="footer-area">
             <div class="container">
-               <div class="footer-top footer-padding">
-                    <div class="row justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                            <div class="single-footer-caption mb-50">
-                                <div class="single-footer-caption mb-30">
-                                    <!-- logo -->
-                                    <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/img/kuri photos/Inline Logo tricolor altx150px.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Blogs</h4>
-                                    <ul>
-                                        <li><a href="#">Game project</a></li>
-                                        <li><a href="#">Final Report</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Quick Link</h4>
-                                    <ul>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    
-                                    <ul>
-                                        <li><a href="#">RMIT University</a></li>
-                                    </ul>
-                                    <p>702 Nguyen Van Linh District 7, Ho Chi Minh City </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
                 <div class="footer-bottom">
                     <div class="row d-flex justify-content-between align-items-center">
                         <div class="col-xl-9 col-lg-9 ">
@@ -405,6 +362,32 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+
+        
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+           showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+
+        </script>
         
     </body>
 </html>
